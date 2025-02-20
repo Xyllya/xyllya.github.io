@@ -49,7 +49,7 @@ bundle exec jekyll s  # 启动
 git add .             # 将本地文件存到暂存区  
 git commit -m "说明"   # 将暂存区文件提交到本地仓库  
 git remote add origin https://github/GitHub用户名.github.io  #将本地仓库关联到GitHub仓库  
-git push -u origin master  #本地仓库上传到GitHub仓库（可能会要求输入用户名和密码）
+git push -u origin main  #本地仓库上传到GitHub仓库（可能会要求输入用户名和密码）
 ```
 
 ## 04/ Configuration
@@ -102,6 +102,9 @@ theme_mode: # [light | dark]  色调
 cdn:
 avatar: 'assets/img/000.jpg'  # 左侧栏头像图片
 ```
+
+- `contact.yml` 网站左下角的链接
+- `share.yml` 文章末尾的分享链接
 
 ### Writing a New Post
 

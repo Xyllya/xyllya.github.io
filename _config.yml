@@ -38,7 +38,7 @@ social:
   email: always1710@163.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    #  https://twitter.com/username # change to your Twitter homepage
+    - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/Xyllya # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -116,7 +116,7 @@ comments:
   # utterances settings › https://utteranc.es/
   utterances:
     repo: Xyllya/xyllya.github.io  # <gh-username>/<repo>
-    issue_term: pathname  # < url | pathname | title | ...>
+    issue_term: title  # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
