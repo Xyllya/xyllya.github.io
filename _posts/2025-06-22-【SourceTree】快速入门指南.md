@@ -47,13 +47,13 @@ tags: [SourceTree, Git]
 		![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506210943682.png)
 		![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506210948539.png)
 - 将本地的修改提交、推送至仓库
-	- 1. 将修改的代码暂存到暂存区
+	1. 将修改的代码暂存到暂存区
 		![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506210954312.png)
-	- 2. 将暂存的文件提交到本地仓库
+	2. 将暂存的文件提交到本地仓库
 		- 提交前添加备注 - 提交
 		![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506210956379.png)
 		![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506210959267.png)
-	- 3. 将本地仓库的修改代码推送至仓库
+	3. 将本地仓库的修改代码推送至仓库
 		![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506210959660.png)
 		![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506211000084.png)
 		![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506211001029.png)
@@ -87,8 +87,8 @@ tags: [SourceTree, Git]
 ## 07/ 代码冲突解决
     
 - 产生冲突的原因
-	- 1. 不同分支的合并：本地修改B分支的文件1后，将B分支推送到A分支，如果A分支的文件1也被修改，即产生冲突
-	- 2. 同一分支的拉取或推送：本地修改文件1，此时远端的文件1也被修改了，本地和远端文件不一致，产生冲突
+	1. 不同分支的合并：本地修改B分支的文件1后，将B分支推送到A分支，如果A分支的文件1也被修改，即产生冲突
+	2. 同一分支的拉取或推送：本地修改文件1，此时远端的文件1也被修改了，本地和远端文件不一致，产生冲突
 - 制造一个冲突
 	- 远程仓库的 test1 添加了内容
 		![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506211119433.png)
@@ -102,22 +102,22 @@ tags: [SourceTree, Git]
 		- 冲突的内容
 			![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506211129831.png)
 - 解决冲突
-	- 1. 手动打开冲突文件解决冲突
+	1. 手动打开冲突文件解决冲突
 		- 根据项目需求删除不需要的代码
 		- 若都需要就删除 `<<<<<<< HEAD` 和 `>>>>>>> 0e5d01f67fd87cc5e5add9573e4fefcd790804e3` 等符号
-	- 2. 使用外部文本文件对比工具 Beyond Compare 解决冲突
-	- 3. 最后将冲突文件标记已解决，提交推送到远程仓库
+	2. 使用外部文本文件对比工具 Beyond Compare 解决冲突
+	3. 最后将冲突文件标记已解决，提交推送到远程仓库
 		![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506211353415.png)
 
 
 ## 08/ 贮藏
 
 - 对于修改到一半，不能提交推送又急需完成其他分支可以将修改贮藏在本地
-- 1. 暂存修改文件后贮藏
+1. 暂存修改文件后贮藏
 	![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506211452656.png)
 	![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506211453862.png)
 	![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506211454997.png)
-- 2. 取出贮藏的文件
+2. 取出贮藏的文件
 	- 贮藏记录 - 右键 - 应用贮藏区：修改文件回到未暂存区
 		![](https://jxy-1306180768.cos.ap-shanghai.myqcloud.com/image/202506211458331.png)
 
